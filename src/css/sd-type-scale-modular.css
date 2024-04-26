@@ -1,15 +1,15 @@
 :root {
   /* Base font sizes for different device headlines */
-  --sd-headline-font-size-base-breakpoint00: 16px;
-  --sd-headline-font-size-base-breakpoint01: 18px;
-  --sd-headline-font-size-base-breakpoint02: 24px;
-  --sd-headline-font-size-base: var(--sd-headline-font-size-base-breakpoint00); /* Default base size set for breakpoint00 */
+  --sd-headline-font-size-base-breakpoint01: 16px;
+  --sd-headline-font-size-base-breakpoint02: 18px;
+  --sd-headline-font-size-base-breakpoint03: 24px;
+  --sd-headline-font-size-base: var(--sd-headline-font-size-base-breakpoint01); /* Default base size set for breakpoint01 */
 
   /* Scaling factors for font sizes across devices */
-  --sd-headline-font-size-factor-breakpoint00: 1.125;
-  --sd-headline-font-size-factor-breakpoint01: 1.2;
-  --sd-headline-font-size-factor-breakpoint02: 1.250;
-  --sd-headline-font-size-factor: var(--sd-headline-font-size-factor-breakpoint00); /* Default factor set for breakpoint00 */
+  --sd-headline-font-size-factor-breakpoint01: 1.125;
+  --sd-headline-font-size-factor-breakpoint02: 1.2;
+  --sd-headline-font-size-factor-breakpoint03: 1.250;
+  --sd-headline-font-size-factor: var(--sd-headline-font-size-factor-breakpoint01); /* Default factor set for breakpoint01 */
 
   /* Computed font sizes using scaling factors */
   --sd-headline-font-size-xs: calc(var(--sd-headline-font-size-base));
@@ -20,16 +20,16 @@
   --sd-headline-font-size-2xl: calc(var(--sd-headline-font-size-xl) * var(--sd-headline-font-size-factor));
 
   /* Line height ratios for readability across devices */
-  --sd-headline-line-height-ratio-breakpoint00: 1.5;
-  --sd-headline-line-height-ratio-breakpoint01: 1.45;
-  --sd-headline-line-height-ratio-breakpoint02: 1.4;
-  --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-breakpoint00); /* Default ratio set for breakpoint00 */
+  --sd-headline-line-height-ratio-breakpoint01: 1.5;
+  --sd-headline-line-height-ratio-breakpoint02: 1.45;
+  --sd-headline-line-height-ratio-breakpoint03: 1.4;
+  --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-breakpoint01); /* Default ratio set for breakpoint01 */
 
   /* Dampening factors to subtly adjust line heights - a value of 1 results in no effect */
-  --sd-headline-line-height-factor-dampener-breakpoint00: 0.96;
-  --sd-headline-line-height-factor-dampener-breakpoint01: 0.97;
-  --sd-headline-line-height-factor-dampener-breakpoint02: 0.98;
-  --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-breakpoint00); /* Default dampener for breakpoint00 */
+  --sd-headline-line-height-factor-dampener-breakpoint01: 0.96;
+  --sd-headline-line-height-factor-dampener-breakpoint02: 0.97;
+  --sd-headline-line-height-factor-dampener-breakpoint03: 0.98;
+  --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-breakpoint01); /* Default dampener for breakpoint01 */
 
   /* Computed line heights using factors and base sizes */
   --sd-headline-line-height-factor: calc(var(--sd-headline-font-size-factor) * var(--sd-headline-line-height-factor-dampener));

@@ -1,31 +1,31 @@
 :root {
   /* Base font sizes for different device headlines */
-  --sd-headline-font-size-base-breakpoint00: 16px;
-  --sd-headline-font-size-base-breakpoint01: 18px;
+  --sd-headline-font-size-base-breakpoint01: 16px;
+  --sd-headline-font-size-base-breakpoint02: 18px;
   --sd-headline-font-size-base-breakpoint03: 24px;
   /* Scaling factors for font sizes across devices */
-  --sd-headline-font-size-factor-breakpoint00: 1.125;
-  --sd-headline-font-size-factor-breakpoint01: 1.2;
-  --sd-headline-font-size-factor-breakpoint02: 1.250;
+  --sd-headline-font-size-factor-breakpoint01: 1.125;
+  --sd-headline-font-size-factor-breakpoint02: 1.2;
+  --sd-headline-font-size-factor-breakpoint03: 1.250;
   /* Line height ratios for readability across devices */
-  --sd-headline-line-height-ratio-breakpoint00: 1.5;
-  --sd-headline-line-height-ratio-breakpoint01: 1.45;
-  --sd-headline-line-height-ratio-breakpoint02: 1.4;
+  --sd-headline-line-height-ratio-breakpoint01: 1.5;
+  --sd-headline-line-height-ratio-breakpoint02: 1.45;
+  --sd-headline-line-height-ratio-breakpoint03: 1.4;
   /* Dampening factors to subtly adjust line heights */
-  --sd-headline-line-height-factor-dampener-breakpoint00: 0.95;
   --sd-headline-line-height-factor-dampener-breakpoint01: 0.95;
   --sd-headline-line-height-factor-dampener-breakpoint02: 0.95;
-
-  /* Media queries for breakpoint01 */
-  @media (width >= 768px) {
-    --sd-headline-font-size-base: var(--sd-headline-font-size-base-breakpoint01);
-    --sd-headline-font-size-factor: var(--sd-headline-font-size-factor-breakpoint01);
-
-    --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-breakpoint01);
-    --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-breakpoint01);
-  }
+  --sd-headline-line-height-factor-dampener-breakpoint03: 0.95;
 
   /* Media queries for breakpoint02 */
+  @media (width >= 768px) {
+    --sd-headline-font-size-base: var(--sd-headline-font-size-base-breakpoint02);
+    --sd-headline-font-size-factor: var(--sd-headline-font-size-factor-breakpoint02);
+
+    --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-breakpoint02);
+    --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-breakpoint02);
+  }
+
+  /* Media queries for breakpoint03 */
   @media (width >= 1024px) {
     --sd-headline-font-size-base: var(--sd-headline-font-size-base-breakpoint02);
     --sd-headline-font-size-factor: var(--sd-headline-font-size-factor-breakpoint02);
