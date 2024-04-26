@@ -3,7 +3,7 @@
     "breakpoint01": {
       "fontSize": {
         "base": {
-          "value": "8816",
+          "value": "16",
           "type": "other"
         },
         "factor": {
