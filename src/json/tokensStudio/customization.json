@@ -1,9 +1,9 @@
 {
   "headline": {
-    "breakpoint 01": {
-      "sizes": {
+    "breakpoint01": {
+      "fontSize": {
         "base": {
-          "value": "18",
+          "value": "16",
           "type": "other"
         },
         "factor": {
@@ -17,7 +17,7 @@
           "type": "other"
         },
         "base": {
-          "value": "{headline.mobile.sizes.base}*{headline.mobile.lineHeight.sizeHeightRatio}",
+          "value": "{headline.breakpoint01.fontSize.base}*{headline.breakpoint01.lineHeight.sizeHeightRatio}",
           "type": "other"
         },
         "factor-dampener": {
@@ -25,13 +25,13 @@
           "type": "other"
         },
         "factor": {
-          "value": "{headline.mobile.sizes.factor}* {headline.mobile.lineHeight.factor-dampener}",
+          "value": "{headline.breakpoint01.fontSize.factor}* {headline.breakpoint01.lineHeight.factor-dampener}",
           "type": "other"
         }
       }
     },
-    "breakpoint 02": {
-      "sizes": {
+    "breakpoint02": {
+      "fontSize": {
         "base": {
           "value": "16",
           "type": "other"
@@ -47,7 +47,7 @@
           "type": "other"
         },
         "base": {
-          "value": "{headline.tablet.sizes.base}*{headline.tablet.lineHeight.sizeHeightRatio}",
+          "value": "{headline.breakpoint02.fontSize.base}*{headline.breakpoint02.lineHeight.sizeHeightRatio}",
           "type": "other"
         },
         "factor-dampener": {
@@ -55,15 +55,15 @@
           "type": "other"
         },
         "factor": {
-          "value": "{headline.tablet.sizes.factor}* {headline.tablet.lineHeight.factor-dampener}",
+          "value": "{headline.breakpoint02.fontSize.factor}* {headline.breakpoint02.lineHeight.factor-dampener}",
           "type": "other"
         }
       }
     },
     "breakpoint03": {
-      "sizes": {
+      "fontSize": {
         "base": {
-          "value": "18",
+          "value": "16",
           "type": "other"
         },
         "factor": {
@@ -77,7 +77,7 @@
           "type": "other"
         },
         "base": {
-          "value": "{headline.desktop.sizes.base}*{headline.desktop.lineHeight.sizeHeightRatio}",
+          "value": "{headline.breakpoint03.fontSize.base}*{headline.breakpoint03.lineHeight.sizeHeightRatio}",
           "type": "other"
         },
         "factor-dampener": {
@@ -85,7 +85,7 @@
           "type": "other"
         },
         "factor": {
-          "value": "{headline.desktop.sizes.factor}* {headline.desktop.lineHeight.factor-dampener}",
+          "value": "{headline.breakpoint03.fontSize.factor}* {headline.breakpoint03.lineHeight.factor-dampener}",
           "type": "other"
         }
       }
