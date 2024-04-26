@@ -1,11 +1,11 @@
 :root {
   /* Breakpoint breakpoint01 */
---sd-headline-font-size-base-breakpoint01: 26px;
+--sd-headline-font-size-base-breakpoint01: 88px;
 --sd-headline-font-size-factor-breakpoint01: 1.125;
 --sd-headline-line-height-ratio-breakpoint01: 1.5;
 --sd-headline-line-height-factor-dampener-breakpoint01: 0.98;
   /* Breakpoint breakpoint02 */
---sd-headline-font-size-base-breakpoint02: 16px;
+--sd-headline-font-size-base-breakpoint02: 77px;
 --sd-headline-font-size-factor-breakpoint02: 1.25;
 --sd-headline-line-height-ratio-breakpoint02: 1.5;
 --sd-headline-line-height-factor-dampener-breakpoint02: 0.98;
