@@ -3,7 +3,7 @@
     "breakpoint01": {
       "fontSize": {
         "base": {
-          "value": "88",
+          "value": "16",
           "type": "other"
         },
         "factor": {
@@ -25,7 +25,7 @@
     "breakpoint02": {
       "fontSize": {
         "base": {
-          "value": "77",
+          "value": "18",
           "type": "other"
         },
         "factor": {
@@ -47,7 +47,7 @@
     "breakpoint03": {
       "fontSize": {
         "base": {
-          "value": "16",
+          "value": "24",
           "type": "other"
         },
         "factor": {
