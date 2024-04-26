@@ -1,0 +1,19 @@
+/* Media queries for breakpoint01 */
+:root {
+@media (width >= 768px) {
+    --sd-headline-font-size-base: var(--sd-headline-font-size-base-breakpoint01);
+    --sd-headline-font-size-factor: var(--sd-headline-font-size-factor-breakpoint01);
+
+    --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-breakpoint01);
+    --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-breakpoint01);
+  }
+
+  /* Media queries for breakpoint02 */
+  @media (width >= 1024px) {
+    --sd-headline-font-size-base: var(--sd-headline-font-size-base-breakpoint02);
+    --sd-headline-font-size-factor: var(--sd-headline-font-size-factor-breakpoint02);
+
+    --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-breakpoint02);
+    --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-breakpoint02);
+  }
+}

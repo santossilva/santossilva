@@ -1,4 +1,4 @@
-name: Your Workflow Name
+name: Update CSS Customization
 
 on:
   push:
