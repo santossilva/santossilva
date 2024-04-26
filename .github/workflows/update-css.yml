@@ -1,27 +1,33 @@
-name: Update CSS File
+name: Your Workflow Name
 
 on:
   push:
     paths:
       - 'src/json/tokensStudio/customization.json'
+  pull_request:
+    paths:
+      - 'src/json/tokensStudio/customization.json'
 
 jobs:
-  update-css:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20.12.2'
-      - name: Install Dependencies
+          node-version: '20.x'
+
+      - name: Install dependencies
         run: npm install
-      - name: Update CSS
+
+      - name: Run script to update CSS
         run: node scripts/update-css.js
-      - name: Commit and Push Changes
+
+      - name: Commit and push if necessary
         run: |
           git config --global user.name 'santossilva'
           git config --global user.email 'santossilva@gmail.com'
-          git add src/css/customization.css
-          git commit -m "Update CSS based on design tokens"
-          git push
+          git add src/css/customization.css  # Adjusted to correct relative path
+          git commit -m "Update CSS based on JSON changes" || echo "No changes to commit"
+          git push origin HEAD:main  # Ensure the branch name is correct
