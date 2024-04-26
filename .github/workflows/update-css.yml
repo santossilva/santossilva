@@ -1,0 +1,27 @@
+name: Update CSS File
+
+on:
+  push:
+    paths:
+      - 'src/json/tokensStudio/customization.json'
+
+jobs:
+  update-css:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Install Dependencies
+        run: npm install
+      - name: Update CSS
+        run: node scripts/update-css.js
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'santossilva'
+          git config --global user.email 'santossilva@gmail.com'
+          git add src/css/customization.css
+          git commit -m "Update CSS based on design tokens"
+          git push
