@@ -16,16 +16,8 @@
           "value": "1.5",
           "type": "other"
         },
-        "base": {
-          "value": "{headline.breakpoint01.fontSize.base}*{headline.breakpoint01.lineHeight.sizeHeightRatio}",
-          "type": "other"
-        },
         "factor-dampener": {
           "value": "0.98",
-          "type": "other"
-        },
-        "factor": {
-          "value": "{headline.breakpoint01.fontSize.factor}* {headline.breakpoint01.lineHeight.factor-dampener}",
           "type": "other"
         }
       }
@@ -46,16 +38,8 @@
           "value": "1.5",
           "type": "other"
         },
-        "base": {
-          "value": "{headline.breakpoint02.fontSize.base}*{headline.breakpoint02.lineHeight.sizeHeightRatio}",
-          "type": "other"
-        },
         "factor-dampener": {
           "value": "0.98",
-          "type": "other"
-        },
-        "factor": {
-          "value": "{headline.breakpoint02.fontSize.factor}* {headline.breakpoint02.lineHeight.factor-dampener}",
           "type": "other"
         }
       }
@@ -76,16 +60,8 @@
           "value": "1.5",
           "type": "other"
         },
-        "base": {
-          "value": "{headline.breakpoint03.fontSize.base}*{headline.breakpoint03.lineHeight.sizeHeightRatio}",
-          "type": "other"
-        },
         "factor-dampener": {
           "value": "0.98",
-          "type": "other"
-        },
-        "factor": {
-          "value": "{headline.breakpoint03.fontSize.factor}* {headline.breakpoint03.lineHeight.factor-dampener}",
           "type": "other"
         }
       }
