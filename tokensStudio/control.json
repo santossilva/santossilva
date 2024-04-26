@@ -1,0 +1,92 @@
+{
+  "control": {
+    "control-small": {
+      "value": {
+        "height": "{control.size.small.height}",
+        "itemSpacing": "{control.size.small.gap}",
+        "horizontalPadding": "{control.size.small.padding}"
+      },
+      "type": "composition"
+    },
+    "control-medium": {
+      "value": {
+        "height": "{control.size.medium.height}",
+        "itemSpacing": "{control.size.medium.gap}",
+        "horizontalPadding": "{control.size.medium.padding}"
+      },
+      "type": "composition"
+    },
+    "control-large": {
+      "value": {
+        "height": "{control.size.large.height}",
+        "itemSpacing": "{control.size.large.gap}",
+        "horizontalPadding": "{control.size.large.padding}"
+      },
+      "type": "composition"
+    },
+    "size": {
+      "small": {
+        "height": {
+          "value": "4*{GU}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "1*{GU}",
+          "type": "other"
+        },
+        "padding": {
+          "value": "2*{GU}",
+          "type": "other"
+        }
+      },
+      "step": {
+        "height": {
+          "value": "{GU2}",
+          "type": "other"
+        },
+        "padding": {
+          "value": "{control.size.step.height}/2",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{control.size.step.height}/2",
+          "type": "other"
+        }
+      },
+      "medium": {
+        "height": {
+          "value": "{control.size.small.height}+{control.size.step.height}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{control.size.small.gap}+{control.size.step.gap}",
+          "type": "other"
+        },
+        "padding": {
+          "value": "{control.size.small.padding}+{control.size.step.padding}",
+          "type": "other"
+        }
+      },
+      "large": {
+        "height": {
+          "value": "{control.size.medium.height}+{control.size.step.height}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{control.size.medium.gap}+{control.size.step.gap}",
+          "type": "other"
+        },
+        "padding": {
+          "value": "{control.size.medium.padding}+{control.size.step.padding}",
+          "type": "other"
+        }
+      },
+      "stepWrapper": {
+        "padding": {
+          "value": "{control.size.step.height}/2",
+          "type": "other"
+        }
+      }
+    }
+  }
+}

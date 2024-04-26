@@ -1,0 +1,86 @@
+{
+  "GU": {
+    "value": "8",
+    "type": "other"
+  },
+  "GU1": {
+    "value": "{GU}*1",
+    "type": "other"
+  },
+  "GU2": {
+    "value": "{GU}*2",
+    "type": "other"
+  },
+  "GU3": {
+    "value": "{GU}*3",
+    "type": "other"
+  },
+  "GU4": {
+    "value": "{GU}*4",
+    "type": "other"
+  },
+  "GU5": {
+    "value": "{GU}*5",
+    "type": "other"
+  },
+  "GU6": {
+    "value": "{GU}*6",
+    "type": "other"
+  },
+  "GU7": {
+    "value": "{GU}*7",
+    "type": "other"
+  },
+  "GU8": {
+    "value": "{GU}*8",
+    "type": "other"
+  },
+  "GU9": {
+    "value": "{GU}*9",
+    "type": "other"
+  },
+  "GU10": {
+    "value": "{GU}*10",
+    "type": "other"
+  },
+  "GU11": {
+    "value": "{GU}*11",
+    "type": "other"
+  },
+  "GU12": {
+    "value": "{GU}*12",
+    "type": "other"
+  },
+  "GU13": {
+    "value": "{GU}*13",
+    "type": "other"
+  },
+  "GU14": {
+    "value": "{GU}*14",
+    "type": "other"
+  },
+  "GU15": {
+    "value": "{GU}*15",
+    "type": "other"
+  },
+  "GU16": {
+    "value": "{GU}*16",
+    "type": "other"
+  },
+  "GU17": {
+    "value": "{GU}*17",
+    "type": "other"
+  },
+  "GU18": {
+    "value": "{GU}*18",
+    "type": "other"
+  },
+  "GU19": {
+    "value": "{GU}*19",
+    "type": "other"
+  },
+  "GU20": {
+    "value": "{GU}*20",
+    "type": "other"
+  }
+}

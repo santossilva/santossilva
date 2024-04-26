@@ -1,0 +1,140 @@
+{
+  "breakpoint03": {
+    "module": {
+      "framing": {
+        "value": "{GU8}",
+        "type": "other"
+      },
+      "spacing": {
+        "value": "{GU2}",
+        "type": "other"
+      }
+    },
+    "block": {
+      "framing": {
+        "value": "{GU4}",
+        "type": "other"
+      },
+      "spacing": {
+        "value": "{GU3}",
+        "type": "other"
+      }
+    },
+    "module-comp": {
+      "value": {
+        "verticalPadding": "{breakpoint03.module.framing}",
+        "horizontalPadding": "{breakpoint03.module.framing}",
+        "itemSpacing": "{breakpoint03.module.spacing}"
+      },
+      "type": "composition"
+    },
+    "cluster-comp": {
+      "value": {
+        "verticalPadding": "0",
+        "horizontalPadding": "0",
+        "itemSpacing": "{breakpoint03.module.spacing}"
+      },
+      "type": "composition"
+    },
+    "block-comp": {
+      "value": {
+        "verticalPadding": "{breakpoint03.block.framing}",
+        "horizontalPadding": "{breakpoint03.block.framing}",
+        "itemSpacing": "{breakpoint03.block.spacing}"
+      },
+      "type": "composition"
+    }
+  },
+  "breakpoint02": {
+    "module": {
+      "framing": {
+        "value": "{GU6}",
+        "type": "other"
+      },
+      "spacing": {
+        "value": "{GU2}",
+        "type": "other"
+      }
+    },
+    "block": {
+      "framing": {
+        "value": "{GU3}",
+        "type": "other"
+      },
+      "spacing": {
+        "value": "{GU3}",
+        "type": "other"
+      }
+    },
+    "module-comp": {
+      "value": {
+        "verticalPadding": "{breakpoint02.module.framing}",
+        "horizontalPadding": "{breakpoint02.module.framing}",
+        "itemSpacing": "{breakpoint02.module.spacing}"
+      },
+      "type": "composition"
+    },
+    "cluster-comp": {
+      "value": {
+        "verticalPadding": "0",
+        "horizontalPadding": "0",
+        "itemSpacing": "{breakpoint02.module.spacing}"
+      },
+      "type": "composition"
+    },
+    "block-comp": {
+      "value": {
+        "verticalPadding": "{breakpoint02.block.framing}",
+        "horizontalPadding": "{breakpoint02.block.framing}",
+        "itemSpacing": "{breakpoint02.block.spacing}"
+      },
+      "type": "composition"
+    }
+  },
+  "breakpoint01": {
+    "module-comp": {
+      "value": {
+        "verticalPadding": "{breakpoint01.module.framing}",
+        "horizontalPadding": "{breakpoint01.module.framing}/2",
+        "itemSpacing": "{breakpoint01.module.spacing}"
+      },
+      "type": "composition"
+    },
+    "cluster-comp": {
+      "value": {
+        "verticalPadding": "0",
+        "horizontalPadding": "0",
+        "itemSpacing": "{breakpoint01.module.spacing}"
+      },
+      "type": "composition"
+    },
+    "block-comp": {
+      "value": {
+        "verticalPadding": "{breakpoint01.block.framing}",
+        "horizontalPadding": "{breakpoint01.block.framing}",
+        "itemSpacing": "{breakpoint01.block.spacing}"
+      },
+      "type": "composition"
+    },
+    "module": {
+      "framing": {
+        "value": "{GU4}",
+        "type": "other"
+      },
+      "spacing": {
+        "value": "{GU1}",
+        "type": "other"
+      }
+    },
+    "block": {
+      "framing": {
+        "value": "{GU3}",
+        "type": "other"
+      },
+      "spacing": {
+        "value": "{GU3}",
+        "type": "other"
+      }
+    }
+  }
+}

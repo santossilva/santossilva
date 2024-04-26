@@ -1,0 +1,94 @@
+{
+  "headline": {
+    "breakpoint 01": {
+      "sizes": {
+        "base": {
+          "value": "18",
+          "type": "other"
+        },
+        "factor": {
+          "value": "1.125",
+          "type": "other"
+        }
+      },
+      "lineHeight": {
+        "sizeHeightRatio": {
+          "value": "1.5",
+          "type": "other"
+        },
+        "base": {
+          "value": "{headline.mobile.sizes.base}*{headline.mobile.lineHeight.sizeHeightRatio}",
+          "type": "other"
+        },
+        "factor-dampener": {
+          "value": "0.98",
+          "type": "other"
+        },
+        "factor": {
+          "value": "{headline.mobile.sizes.factor}* {headline.mobile.lineHeight.factor-dampener}",
+          "type": "other"
+        }
+      }
+    },
+    "breakpoint 02": {
+      "sizes": {
+        "base": {
+          "value": "16",
+          "type": "other"
+        },
+        "factor": {
+          "value": "1.25",
+          "type": "other"
+        }
+      },
+      "lineHeight": {
+        "sizeHeightRatio": {
+          "value": "1.5",
+          "type": "other"
+        },
+        "base": {
+          "value": "{headline.tablet.sizes.base}*{headline.tablet.lineHeight.sizeHeightRatio}",
+          "type": "other"
+        },
+        "factor-dampener": {
+          "value": "0.98",
+          "type": "other"
+        },
+        "factor": {
+          "value": "{headline.tablet.sizes.factor}* {headline.tablet.lineHeight.factor-dampener}",
+          "type": "other"
+        }
+      }
+    },
+    "breakpoint03": {
+      "sizes": {
+        "base": {
+          "value": "18",
+          "type": "other"
+        },
+        "factor": {
+          "value": "1.33",
+          "type": "other"
+        }
+      },
+      "lineHeight": {
+        "sizeHeightRatio": {
+          "value": "1.5",
+          "type": "other"
+        },
+        "base": {
+          "value": "{headline.desktop.sizes.base}*{headline.desktop.lineHeight.sizeHeightRatio}",
+          "type": "other"
+        },
+        "factor-dampener": {
+          "value": "0.98",
+          "type": "other"
+        },
+        "factor": {
+          "value": "{headline.desktop.sizes.factor}* {headline.desktop.lineHeight.factor-dampener}",
+          "type": "other"
+        }
+      }
+    }
+  }
+}
