@@ -1,6 +1,6 @@
 :root {
   /* Breakpoint breakpoint01 */
---sd-headline-font-size-base-breakpoint01: 8816px;
+--sd-headline-font-size-base-breakpoint01: 16px;
 --sd-headline-font-size-factor-breakpoint01: 1.125;
 --sd-headline-line-height-ratio-breakpoint01: 1.5;
 --sd-headline-line-height-factor-dampener-breakpoint01: 0.98;
