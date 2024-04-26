@@ -1,16 +1,16 @@
 :root {
   /* Breakpoint breakpoint01 */
---sd-headline-font-size-base-breakpoint01: 88px;
+--sd-headline-font-size-base-breakpoint01: 16px;
 --sd-headline-font-size-factor-breakpoint01: 1.125;
 --sd-headline-line-height-ratio-breakpoint01: 1.5;
 --sd-headline-line-height-factor-dampener-breakpoint01: 0.98;
   /* Breakpoint breakpoint02 */
---sd-headline-font-size-base-breakpoint02: 77px;
+--sd-headline-font-size-base-breakpoint02: 18px;
 --sd-headline-font-size-factor-breakpoint02: 1.25;
 --sd-headline-line-height-ratio-breakpoint02: 1.5;
 --sd-headline-line-height-factor-dampener-breakpoint02: 0.98;
   /* Breakpoint breakpoint03 */
---sd-headline-font-size-base-breakpoint03: 16px;
+--sd-headline-font-size-base-breakpoint03: 24px;
 --sd-headline-font-size-factor-breakpoint03: 1.33;
 --sd-headline-line-height-ratio-breakpoint03: 1.5;
 --sd-headline-line-height-factor-dampener-breakpoint03: 0.98;
