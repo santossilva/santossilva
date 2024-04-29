@@ -234,5 +234,81 @@
         }
       }
     }
+  },
+  "bodycopy": {
+    "breakpoint01": {
+      "fontSize": {
+        "base": {
+          "value": "16",
+          "type": "other"
+        },
+        "step": {
+          "value": "2",
+          "type": "other"
+        },
+        "xs": {
+          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 0",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 1",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 2",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 3",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 4",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 5",
+          "type": "fontSizes"
+        }
+      },
+      "lineHeight": {
+        "sizeHeightRatio": {
+          "value": "1.5",
+          "type": "other"
+        },
+        "base": {
+          "value": "{headline.breakpoint01.fontSize.base}*{headline.breakpoint01.lineHeight.sizeHeightRatio}",
+          "type": "other"
+        },
+        "step": {
+          "value": "{headline.breakpoint01.fontSize.step} + {headline.breakpoint01.lineHeight.step-dampener}",
+          "type": "other"
+        },
+        "xs": {
+          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 0",
+          "type": "lineHeights"
+        },
+        "sm": {
+          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 1",
+          "type": "lineHeights"
+        },
+        "md": {
+          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 2",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 3",
+          "type": "lineHeights"
+        },
+        "xl": {
+          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 4",
+          "type": "lineHeights"
+        },
+        "2xl": {
+          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 5",
+          "type": "lineHeights"
+        }
+      }
+    }
   }
 }
