@@ -261,14 +261,6 @@
         "lg": {
           "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 3",
           "type": "fontSizes"
-        },
-        "xl": {
-          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 4",
-          "type": "fontSizes"
-        },
-        "2xl": {
-          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 5",
-          "type": "fontSizes"
         }
       },
       "lineHeight": {
