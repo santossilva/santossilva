@@ -247,19 +247,19 @@
           "type": "other"
         },
         "xs": {
-          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 0",
+          "value": "{bodycopy.breakpoint01.fontSize.base} + {bodycopy.breakpoint01.fontSize.step} ^ 0",
           "type": "fontSizes"
         },
         "sm": {
-          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 1",
+          "value": "{bodycopy.breakpoint01.fontSize.base} + {bodycopy.breakpoint01.fontSize.step} ^ 1",
           "type": "fontSizes"
         },
         "md": {
-          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 2",
+          "value": "{bodycopy.breakpoint01.fontSize.base} + {bodycopy.breakpoint01.fontSize.step} ^ 2",
           "type": "fontSizes"
         },
         "lg": {
-          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.fontSize.step} ^ 3",
+          "value": "{bodycopy.breakpoint01.fontSize.base} + {bodycopy.breakpoint01.fontSize.step} ^ 3",
           "type": "fontSizes"
         }
       },
@@ -269,35 +269,35 @@
           "type": "other"
         },
         "base": {
-          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.lineHeight.step}",
+          "value": "{bodycopy.breakpoint01.fontSize.base} + {bodycopy.breakpoint01.lineHeight.step}",
           "type": "other"
         },
         "step": {
-          "value": "{headline.breakpoint01.fontSize.step} + {headline.breakpoint01.lineHeight.step-dampener}",
+          "value": "{bodycopy.breakpoint01.fontSize.step} + {bodycopy.breakpoint01.lineHeight.step-dampener}",
           "type": "other"
         },
         "xs": {
-          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 0",
+          "value": "{bodycopy.breakpoint01.lineHeight.base} + {bodycopy.breakpoint01.lineHeight.step} ^ 0",
           "type": "lineHeights"
         },
         "sm": {
-          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 1",
+          "value": "{bodycopy.breakpoint01.lineHeight.base} + {bodycopy.breakpoint01.lineHeight.step} ^ 1",
           "type": "lineHeights"
         },
         "md": {
-          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 2",
+          "value": "{bodycopy.breakpoint01.lineHeight.base} + {bodycopy.breakpoint01.lineHeight.step} ^ 2",
           "type": "lineHeights"
         },
         "lg": {
-          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 3",
+          "value": "{bodycopy.breakpoint01.lineHeight.base} + {bodycopy.breakpoint01.lineHeight.step} ^ 3",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 4",
+          "value": "{bodycopy.breakpoint01.lineHeight.base} + {bodycopy.breakpoint01.lineHeight.step} ^ 4",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "{headline.breakpoint01.lineHeight.base} + {headline.breakpoint01.lineHeight.step} ^ 5",
+          "value": "{bodycopy.breakpoint01.lineHeight.base} + {bodycopy.breakpoint01.lineHeight.step} ^ 5",
           "type": "lineHeights"
         }
       }
