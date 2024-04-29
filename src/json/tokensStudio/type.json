@@ -277,7 +277,7 @@
           "type": "other"
         },
         "base": {
-          "value": "{headline.breakpoint01.fontSize.base}*{headline.breakpoint01.lineHeight.sizeHeightRatio}",
+          "value": "{headline.breakpoint01.fontSize.base} + {headline.breakpoint01.lineHeight.step}",
           "type": "other"
         },
         "step": {
