@@ -14,15 +14,15 @@
           "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 0",
           "type": "fontSizes"
         },
-        "s": {
+        "sm": {
           "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 1",
           "type": "fontSizes"
         },
-        "m": {
+        "md": {
           "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 2",
           "type": "fontSizes"
         },
-        "l": {
+        "lg": {
           "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 3",
           "type": "fontSizes"
         },
@@ -56,15 +56,15 @@
           "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 0",
           "type": "lineHeights"
         },
-        "s": {
+        "sm": {
           "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 1",
           "type": "lineHeights"
         },
-        "m": {
+        "md": {
           "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 2",
           "type": "lineHeights"
         },
-        "l": {
+        "lg": {
           "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 3",
           "type": "lineHeights"
         },
@@ -92,15 +92,15 @@
           "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 0",
           "type": "fontSizes"
         },
-        "s": {
+        "sm": {
           "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 1",
           "type": "fontSizes"
         },
-        "m": {
+        "md": {
           "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 2",
           "type": "fontSizes"
         },
-        "l": {
+        "lg": {
           "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 3",
           "type": "fontSizes"
         },
@@ -134,15 +134,15 @@
           "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 0",
           "type": "lineHeights"
         },
-        "s": {
+        "sm": {
           "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 1",
           "type": "lineHeights"
         },
-        "m": {
+        "md": {
           "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 2",
           "type": "lineHeights"
         },
-        "l": {
+        "lg": {
           "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 3",
           "type": "lineHeights"
         },
@@ -170,15 +170,15 @@
           "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 0",
           "type": "fontSizes"
         },
-        "s": {
+        "sm": {
           "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 1",
           "type": "fontSizes"
         },
-        "m": {
+        "md": {
           "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 2",
           "type": "fontSizes"
         },
-        "l": {
+        "lg": {
           "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 3",
           "type": "fontSizes"
         },
@@ -212,15 +212,15 @@
           "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 0",
           "type": "lineHeights"
         },
-        "s": {
+        "sm": {
           "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 1",
           "type": "lineHeights"
         },
-        "m": {
+        "md": {
           "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 2",
           "type": "lineHeights"
         },
-        "l": {
+        "lg": {
           "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 3",
           "type": "lineHeights"
         },
